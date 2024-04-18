@@ -42,7 +42,7 @@ def filter_pull_requests(pull_requests):
 def print_email_summary(user, repo, opened, closed):
     # Print the From, To, and Subject lines of the email
     print(f"From: no-reply@github.com")
-    print(f"To: benjaminsaullmcculloch")
+    print(f"To: benjaminsaullmcculloch@gmail.com")
     print(f"Subject: Weekly Pull Request Summary for {user}/{repo}")
     # Print the body of the email
     print("\nBody:")
